@@ -33,6 +33,7 @@ class UserRepository {
     const records = await this.getAll();
     records.push(data);
     await this.writeAll(records);
+    return data.id;
   }
 
   async writeAll(records) {
