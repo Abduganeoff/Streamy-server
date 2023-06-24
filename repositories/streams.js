@@ -35,13 +35,13 @@ class UserRepository {
   }
 }
 
-const test = async () => {
-  const repo = new UserRepository("streams.json");
+// const test = async () => {
+//   const repo = new UserRepository("streams.json");
 
-  await repo.create({});
-  const streams = await repo.getAll();
+//   await repo.create({});
+//   const streams = await repo.getAll();
 
-  console.log(streams);
-};
+//   console.log(streams);
+// };
 
-test();
+// test();
