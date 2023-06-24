@@ -1,5 +1,5 @@
 const express = require("express");
-const usersRepo = require("../repositories/users");
+const usersRepo = require("../repositories/usersRepo");
 const { validationResult } = require("express-validator");
 const {
   requireEmail,
