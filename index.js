@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const cookieSession = require("cookie-session");
 const authRouter = require("./routes/auth");
 const streamsRouter = require("./routes/streams");
+const cors = require("cors");
 
 const app = express();
 const PORT = 5000;
@@ -19,6 +20,11 @@ app.use(
   })
 );
 
+app.use(
+  cors({
+    origin: "http://localhost:3000",
+  })
+);
 // Sign up, sign in and sign out routes
 app.use(authRouter);
 
