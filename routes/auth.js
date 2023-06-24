@@ -16,12 +16,12 @@ router.post(
   [requireEmail, requirePassword, requirePasswordConfirmation],
   async (req, res) => {
     const errors = validationResult(req);
-
+    
     if (!errors.isEmpty()) {
-      return res.status(404).send(errors.array());
+      return res.status(400).send(errors.array());
     }
 
-    const { email, password, passwordConfirmation } = req.body;
+    const { email, password } = req.body;
 
     const user = await usersRepo.create({ email, password });
 
@@ -44,7 +44,7 @@ router.post(
     const errors = validationResult(req);
 
     if (!errors.isEmpty()) {
-      return res.status(404).send(errors.array());
+      return res.status(400).send(errors.array());
     }
 
     const { email } = req.body;
