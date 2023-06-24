@@ -4,7 +4,7 @@ const streamsRepo = require("../repositories/streamsRepo");
 const router = express.Router();
 
 router.get("/streams", (req, res) => {
-  res.send("Streams");
+  res.send(["stream1", "stream2", "stream3"]);
 });
 
 router.get("/streams/:id", (req, res) => {});
