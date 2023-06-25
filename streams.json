@@ -5,8 +5,8 @@
     "summary": "this is my summary for my stream",
     "description": "I am checking wheather it is working or not via postman!",
     "id": "d353fa9f",
-    "upVotes": null,
-    "downVotes": -1
+    "upVotes": 13,
+    "downVotes": 5
   },
   {
     "title": "React stream",
@@ -14,8 +14,8 @@
     "summary": "This is test react js stream",
     "description": "This is very long description for my react.js stream blog",
     "id": "2bd86fde",
-    "upVotes": 7,
-    "downVotes": 6
+    "upVotes": 9,
+    "downVotes": 10
   },
   {
     "title": "This another one",
@@ -23,16 +23,25 @@
     "summary": "My rumble gumble dumble belll",
     "description": "lol this is very tiring already. do you have something else? I want to stop it",
     "id": "941ea31f",
-    "upVotes": 1,
-    "downVotes": 100
+    "upVotes": 2,
+    "downVotes": 101
   },
   {
     "title": "another one oneo one",
     "platform": "Kick",
     "summary": "this is my summary for my stream",
     "description": "this is my summary for my streamthis is my summary for my streamthis is my summary for my streamthis is my summary for my streamthis is my s",
+    "upVotes": 2,
+    "downVotes": 2,
+    "id": "eb566d4d"
+  },
+  {
+    "title": "LEt's",
+    "platform": "Twitch",
+    "summary": "my summery",
+    "description": "I don't like writing a lot",
     "upVotes": 0,
     "downVotes": 0,
-    "id": "eb566d4d"
+    "id": "3f548fc6"
   }
 ]
