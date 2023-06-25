@@ -16,7 +16,7 @@ router.post(
   [requireEmail, requirePassword, requirePasswordConfirmation],
   async (req, res) => {
     const errors = validationResult(req);
-    
+
     if (!errors.isEmpty()) {
       return res.status(400).send(errors.array());
     }

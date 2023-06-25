@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "title": "My streams",
+    "platform": "tik-tok",
+    "summary": "this is my summary for my stream",
+    "description": "I am checking wheather it is working or not via postman!",
+    "id": "d353fa9f",
+    "upVotes": null,
+    "downVotes": -1
+  },
+  {
+    "title": "React stream",
+    "platform": "YouTube",
+    "summary": "This is test react js stream",
+    "description": "This is very long description for my react.js stream blog",
+    "id": "2bd86fde",
+    "upVotes": 7,
+    "downVotes": 6
+  },
+  {
+    "title": "This another one",
+    "platform": "Rumble",
+    "summary": "My rumble gumble dumble belll",
+    "description": "lol this is very tiring already. do you have something else? I want to stop it",
+    "id": "941ea31f",
+    "upVotes": 1,
+    "downVotes": 100
+  },
+  {
+    "title": "another one oneo one",
+    "platform": "Kick",
+    "summary": "this is my summary for my stream",
+    "description": "this is my summary for my streamthis is my summary for my streamthis is my summary for my streamthis is my summary for my streamthis is my s",
+    "upVotes": 0,
+    "downVotes": 0,
+    "id": "eb566d4d"
+  }
+]

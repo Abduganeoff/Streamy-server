@@ -58,4 +58,21 @@ module.exports = {
         throw new Error("Invalid password!");
       }
     }),
+
+  requireTitle: check("title")
+    .trim()
+    .isLength({ min: 1, max: 20 })
+    .withMessage("Title must be between 2 and 14 characters!"),
+  requirePlatform: check("platform")
+    .trim()
+    .isLength({ min: 3, max: 15 })
+    .withMessage("Platform must be provided!"),
+  requireSummary: check("summary")
+    .trim()
+    .isLength({ min: 10, max: 50 })
+    .withMessage("Summary must be between 10 and 30 characters!"),
+  requireDescription: check("description")
+    .trim()
+    .isLength({ min: 20, max: 150 })
+    .withMessage("Description must be between 20 and 50 characters!"),
 };
